@@ -209,3 +209,23 @@ Before sharing a public URL:
 ## Skills demonstrated
 
 Python, pandas, NumPy, SciPy, scikit-learn, XGBoost, statistical testing, feature engineering, leakage prevention, MLflow, model registry, Streamlit, GitHub Actions, Git LFS, documentation, and responsible ML communication.
+
+## Conclusion
+
+The best classifier achieved 97.05% validation accuracy and approximately 97.08% untouched-test accuracy. However, High_Risk recall was approximately 51%, so the model should be used for decision support and human review rather than fully automated lending decisions. Eligible recall was approximately 97%, supporting the business objective of reducing incorrect rejection or flagging of eligible applicants.
+
+Best classification model: XGBoost Classifier
+
+Validation accuracy: 97.05%
+Validation macro F1: 86.03%
+Validation High_Risk recall: 51.32%
+Validation Eligible recall: 97.16%
+Validation ROC-AUC: 99.27%
+
+Test accuracy: approximately 97.08%
+Test High_Risk recall: approximately 50.63%
+Test regression RMSE: ₹1,049.56
+
+Best regression model: XGBoost Regressor
+Validation RMSE: ₹1,074.35
+Validation R²: 0.9809

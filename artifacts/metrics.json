@@ -1,0 +1,69 @@
+{
+  "classification": [
+    {
+      "model": "logistic_regression",
+      "accuracy": 0.8751482213438735,
+      "precision_weighted": 0.8395153924791171,
+      "recall_weighted": 0.8751482213438735,
+      "f1_weighted": 0.8552375999005518,
+      "precision_macro": 0.5752435510541849,
+      "recall_macro": 0.5666043328632941,
+      "f1_macro": 0.5587189889812104,
+      "high_risk_recall": 0.0007624857033930614,
+      "eligible_recall": 0.7437757478058391,
+      "roc_auc_ovr": 0.9103556296488414,
+      "optimizer_iterations": 50.0
+    },
+    {
+      "model": "random_forest_classifier",
+      "accuracy": 0.9536561264822134,
+      "precision_weighted": 0.9502545945027716,
+      "recall_weighted": 0.9536561264822134,
+      "f1_weighted": 0.951035440635829,
+      "precision_macro": 0.8156428268442997,
+      "recall_macro": 0.7869902742650002,
+      "f1_macro": 0.7962481214046061,
+      "high_risk_recall": 0.410217308425467,
+      "eligible_recall": 0.9708042271180369,
+      "roc_auc_ovr": 0.9847387697213347,
+      "optimizer_iterations": NaN
+    },
+    {
+      "model": "xgboost_classifier",
+      "accuracy": 0.9704874835309618,
+      "precision_weighted": 0.9682512815099386,
+      "recall_weighted": 0.9704874835309618,
+      "f1_weighted": 0.9676410954449883,
+      "precision_macro": 0.9194846943063983,
+      "recall_macro": 0.826848054673965,
+      "f1_macro": 0.8603444458015687,
+      "high_risk_recall": 0.5131528783835303,
+      "eligible_recall": 0.9716102453877844,
+      "roc_auc_ovr": 0.9927190596402059,
+      "optimizer_iterations": NaN
+    }
+  ],
+  "regression": [
+    {
+      "model": "linear_regression",
+      "rmse": 5243.932818299178,
+      "mae": 3712.3186446302134,
+      "r2": 0.5454642074583429,
+      "mape": 247.78578600532856
+    },
+    {
+      "model": "random_forest_regressor",
+      "rmse": 1090.2284759884506,
+      "mae": 310.83276716996045,
+      "r2": 0.9803533326542752,
+      "mape": 11.446935723805415
+    },
+    {
+      "model": "xgboost_regressor",
+      "rmse": 1074.3548026325036,
+      "mae": 361.146371997479,
+      "r2": 0.9809212767482265,
+      "mape": 14.44493514138616
+    }
+  ]
+}

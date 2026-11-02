@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+mlruns/
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+artifacts/
+*.joblib
+*.pkl
+
+# Publish only the selected, compact deployment artifacts.
+!artifacts/
+artifacts/*
+!artifacts/best_classification.joblib
+!artifacts/best_regression.joblib
+!artifacts/classification_label_encoder.joblib
+!artifacts/metrics.json
+!artifacts/test_metrics.json
+!artifacts/dataset_summary.csv
+!artifacts/selection_summary.txt

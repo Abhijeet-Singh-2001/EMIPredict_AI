@@ -1,0 +1,7 @@
+Best classification: xgboost_classifier
+Best regression: xgboost_regressor
+Validation classification accuracy: 0.970487
+Test classification accuracy: 0.970751
+Validation regression RMSE: 1074.354803
+Test regression RMSE: 1049.555309
+Dropped training-only features: ['college_fees', 'current_emi_amount', 'dependents', 'family_size', 'groceries_utilities', 'monthly_rent', 'monthly_salary', 'other_monthly_expenses', 'school_fees', 'travel_expenses']
